@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>注册页面</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
     <link rel="stylesheet" href="css/base.css">
     <link rel="stylesheet" href="css/register.css">
@@ -26,34 +27,38 @@
                 <p>已有账号？<a href="login.html">立即登录</a></p>
             </div>
         </div>
+        <div class="alert_box">
+
+        </div>
         <div class="reg_form">
             <form action="">
                 <ul>
                     <li>
                         <lable for="tel">手机号：</lable>
-                        <input type="text" class="inp" id="tel">
-                        <span class="erro"> 手机号格式不正确，请重新输入！</span>
+                        <input type="text" class="inp" id="tel" name="phoneNum">
+                        <!-- <span class="erro"> 手机号格式不正确，请重新输入！</span> -->
                     </li>
                     <li>
                         <lable for="mesg">短信验证码：</lable>
-                        <input type="text" class="inp" id="mesg">
+                        <input type="text" class="inp" id="mesg" name="mesg">
+                        <button class="send_mesg over">发送验证码</button>
                     </li>
                     <li>
                         <lable for="sec">登录密码：</lable>
-                        <input type="text" class="inp" id="sec">
-                        <span class="erro"> 密码格式不正确，请重新输入！</span>
+                        <input type="text" class="inp" id="sec" name="password">
+                        <!-- <span class="erro"> 密码格式不正确，请重新输入！</span> -->
                     </li>
                     <li>
                         <lable for="retry">确认密码：</lable>
-                        <input type="text" class="inp" id="retry">
-                        <span class="erro"> 两次输入密码不一致，请重新输入！</span>
+                        <input type="text" class="inp" id="retry" name="retry">
+                        <!-- <span class="erro"> 两次输入密码不一致，请重新输入！</span> -->
                     </li>
                     <li class="agree">
                         <input type="checkbox" name="" id="">同意协议并注册
                         <a href="#">《手语心生用户协议》</a>
                     </li>
                     <li>
-                        <button type="submit" class="over">立即注册</button>
+                        <button type="submit" class="over">注册</button>
                     </li>
                 </ul>
             </form>
@@ -64,7 +69,10 @@
     <div class="return">
         <a href="index.html">返回首页</a>
     </div>
-
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+<script src="lib/form-serialize.js"></script>
+<script src="js/register.js"></script>
 </body>
 
 </html>

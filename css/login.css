@@ -1,0 +1,12 @@
+
+.alert{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    position: absolute;
+    width: 100%;
+}
+.alert div{
+    width: 100%;
+    text-align: center;
+    position: relative;
+}
