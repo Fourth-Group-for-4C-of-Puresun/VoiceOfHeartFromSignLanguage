@@ -30,6 +30,9 @@ document.querySelector('.reg_form form').addEventListener('submit',e=>{
         console.log('反馈')
         alert('登陆成功','success');
         sessionStorage.setItem('user',`${phoneNum}`);
+        setTimeout(() => {
+          location.href = 'index.html'
+        }, 2000);
         // axios({
         //   url:'null',
         //   method:'POST',
