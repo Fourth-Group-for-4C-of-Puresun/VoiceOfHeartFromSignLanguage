@@ -57,7 +57,7 @@
     border-radius: 10px;
 }
 
- .number {
+ .number,.number2 {
     float: right;
     width: 100px;
     height: 40px;

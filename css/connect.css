@@ -11,3 +11,27 @@
     margin-top: 10px;
     text-indent: 4em;
 }
+.over{
+    width: 100px;
+    height: 34px;
+    background-color: red;
+    border: none;
+    color: #fff;
+    font-size: 15px;
+}
+.search,.connect_ai {
+    margin-left: 100px;
+}
+.search p,.connect_ai p {
+    color: black;
+    font-family: '宋体';
+    letter-spacing: 5px;
+    font-size: 20px;
+    margin-top: 10px;
+}
+.search_btn{
+    margin-top: 20px;
+}
+.spinner-border{
+    margin-left: 50px;
+}

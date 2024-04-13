@@ -11,3 +11,13 @@
     margin-top: 10px;
     text-indent: 4em;
 }
+input[type="checkbox"] { 
+    transform: scale(2.0); 
+} 
+.form-check{
+    margin-top: 50px;
+    margin-left: 100px;
+}
+.form-check label{
+    margin-left: 20px;
+}

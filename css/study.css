@@ -11,3 +11,26 @@
     margin-top: 10px;
     text-indent: 4em;
 }
+.main_bord{
+    background-color: rgb(229, 255, 255);
+}
+
+.cards{
+    display: flex;
+}
+.cards .card{
+    /* margin-left: 30px;
+    margin-right: 30px; */
+    margin: 0 auto;
+}
+.cards div{
+    border: 1px solid gray;
+}
+.carousel{
+    margin: 0 auto;
+}
+/* .cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    gap: 250px; 
+} */

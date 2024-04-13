@@ -11,3 +11,58 @@
     margin-top: 10px;
     text-indent: 4em;
 }
+.settings {
+    margin-top: 50px;
+    margin-left: 96px;
+    vertical-align: bottom;
+}
+.over{
+    width: 100px;
+    height: 34px;
+    background-color: red;
+    border: none;
+    color: #fff;
+    font-size: 15px;
+}
+.sos_form .inp {
+    width: 238px;
+    height: 34px;
+    border: 1px solid #ccc;
+    margin-right: 60px;
+    
+}
+.sos_form p {
+    display: block;
+}
+.xin {
+    width: 140x;
+    height: 34px;
+    background-color: aliceblue;
+    font-size: 20px;
+    text-align: center;
+    line-height: 34px;
+    border-radius: 10px;
+    text-align: left;
+    margin-bottom: 15px;
+}
+/* .checkbox_switch{
+    display: flex;
+} */
+.form-check{
+    margin-left:100px;
+}
+input[type="checkbox"] { 
+    transform: scale(1.5); 
+} 
+label{
+    margin-left: 15px;
+}
+.anyother{
+    display: inline-block;
+    margin-left: 100px;
+}
+.sub_suggest{
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
